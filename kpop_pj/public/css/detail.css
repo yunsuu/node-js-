@@ -1,0 +1,31 @@
+#description {
+    height: 214px;
+}
+
+#profile-img {
+    width: 50px;
+    float: right;
+}
+
+#write {
+    background-color: #18bc9c!important;
+}
+
+#profile-img {
+    width: 70px;
+    float: right;
+}
+
+#like-button {
+    margin: 0 auto;
+    display: table;
+    text-align: center
+}
+
+#thumb {
+    width: 40px;
+}
+
+#add-comment {
+    display: inline;
+}
