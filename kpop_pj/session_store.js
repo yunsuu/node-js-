@@ -5,11 +5,7 @@ var MySQLStore = require('express-mysql-session')(session);
 var app = express()
 
 var options = {
-    host: 'localhost',
-    port: 3306,
-    user: 'root',
-    password: 'ljsql934',
-    database: 'kpop'
+
 };
 
 var sessionStore = new MySQLStore(options);

@@ -14,11 +14,11 @@ var template = require('./views/template.js');
 
 //session store
 var session_store_options = {
-    host: 'localhost',
+    host: '',
     port: 3306,
-    user: 'root',
-    password: 'ljsql934',
-    database: 'kpop'
+    user: '',
+    password: '',
+    database: ''
 };
 var sessionStore = new MySQLStore(session_store_options);
 
@@ -47,10 +47,10 @@ app.get('*', function(request, response, next) {
 
 //database connect
 var db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: 'ljsql934',
-    database: 'kpop'
+    host: '',
+    user: '',
+    password: '',
+    database: ''
 });
 db.connect();
 
